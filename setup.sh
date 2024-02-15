@@ -31,7 +31,7 @@ echo "set nu rnu" >> /usr/share/vim/vimrc
 
 ##GIT repo clone and setup
 echo "cloning repo..."
-git clone https://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@github.com/DaveyCHaysIII/${repo}.git
+git clone https://KEY@github.com/YOUR_GITHUB/${repo}.git
 cd /root/${repo}
 if [[ ! -d "/root/${repo}/${dir}" ]]; then
 	mkdir /root/${repo}/${dir}
@@ -40,8 +40,8 @@ fi
 	
 ##GIT configs
 echo "setting up git config..."
-git config user.email david.c.hays.iii@gmail.com
-git config user.name Davey Hays
+git config user.email YOUR_EMAIL
+git config user.name YOUR_NAME
 cd /root
 
 ##Alias setup for working directory
